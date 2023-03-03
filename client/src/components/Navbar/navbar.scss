@@ -1,0 +1,54 @@
+.navbar {
+  height: 80px;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      display: flex;
+      align-items: center;
+    }
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+    .senter {
+      display: flex;
+      align-items: center;
+      font-size: 25px;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .icon {
+        display: flex;
+        gap: 15px;
+        color: gray;
+        cursor: pointer;
+
+        .carticon {
+          position: relative;
+          span {
+            font-size: 12;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: rgb(99, 99, 229);
+            color: white;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            right: -10px;
+            top: -10px;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
