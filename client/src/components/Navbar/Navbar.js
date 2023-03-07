@@ -31,7 +31,7 @@ export const Navbar = () => {
         </div>
         <div className='senter'>
           <Link className='link' to='/'>
-            Shoaib Shop
+            SHOAIB STORE
           </Link>
         </div>
         <div className='right'>
