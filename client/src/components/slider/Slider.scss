@@ -1,0 +1,27 @@
+.slider {
+  height: calc(100vh);
+  width: 100vw;
+  position: relative;
+
+  .container {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    img {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .icons {
+    width: 100px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
