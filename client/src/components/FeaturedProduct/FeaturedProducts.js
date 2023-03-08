@@ -8,6 +8,7 @@ const FeaturedProducts = ({ type }) => {
       id: 1,
       img: 'https://images.pexels.com/photos/8007218/pexels-photo-8007218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Racket',
+      isNew: true,
       oldPrice: 19,
       price: 12,
     },
@@ -15,6 +16,7 @@ const FeaturedProducts = ({ type }) => {
       id: 2,
       img: 'https://images.pexels.com/photos/8007218/pexels-photo-8007218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Racket',
+      isNew: true,
       oldPrice: 19,
       price: 12,
     },
@@ -23,6 +25,7 @@ const FeaturedProducts = ({ type }) => {
       img: 'https://images.pexels.com/photos/8007218/pexels-photo-8007218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Racket',
       oldPrice: 19,
+      isNew: true,
       price: 12,
     },
     {
@@ -30,6 +33,7 @@ const FeaturedProducts = ({ type }) => {
       img: 'https://images.pexels.com/photos/8007218/pexels-photo-8007218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Racket',
       oldPrice: 19,
+      isNew: true,
       price: 12,
     },
   ];
