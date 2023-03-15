@@ -29,7 +29,15 @@ export const Products = () => {
           <h2>Product Categories</h2>
           <div className='inputItem' key={1}>
             <input type='checkbox' id='1' value={1} onChange={handleChange} />
-            <label htmlFor={'yyy'}>{'uuuu'}</label>
+            <label htmlFor={'yyy'}>{'Racket'}</label>
+          </div>
+          <div className='inputItem' key={1}>
+            <input type='checkbox' id='1' value={1} onChange={handleChange} />
+            <label htmlFor={'yyy'}>{'Racket'}</label>
+          </div>
+          <div className='inputItem' key={1}>
+            <input type='checkbox' id='1' value={1} onChange={handleChange} />
+            <label htmlFor={'yyy'}>{'Racket'}</label>
           </div>
         </div>
         <div className='filterItem'>
