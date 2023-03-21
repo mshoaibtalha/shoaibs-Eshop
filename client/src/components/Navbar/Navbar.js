@@ -5,8 +5,10 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import './navbar.scss';
+import Cart from '../Cart/Cart';
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div className='navbar'>
       <div className='wrapper'>
@@ -48,13 +50,14 @@ export const Navbar = () => {
           <div className='icon'>
             <SearchIcon />
             <PersonIcon />
-            <div className='carticon'>
+            <div className='carticon' onClick={() => setOpen(!open)}>
               <AddShoppingCartIcon />
               <span>0</span>
             </div>
           </div>
         </div>
       </div>
+      {open && <Cart />}
     </div>
   );
 };
